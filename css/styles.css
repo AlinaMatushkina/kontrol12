@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family: "NunitoBold";
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+@font-face {
+    font-family: "NunitoBlack";
+    src: url("../fonts/Nunito-Black.ttf");
+}
+body {
+    max-width: 1920px;
+    font-family: NunitoBold,sans-serif;
+    background: linear-gradient(to right, white 50%, #F8F8FA 50%);
+}
+.container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-left {
+max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+   justify-content: center;
+    text-align: left;
+
+}
+
+.container-right {
+
+}
+.container-right__img {
+    width: 543px;
+    height: 600px;
+}
+
+.title {
+
+text-transform: uppercase;
+    font-size: 36px;
+    color: #000000;
+    font-family: NunitoBlack,sans-serif;
+    font-weight: 900;
+text-align: center;
+    margin-bottom: 112px;
+    margin-top: 27px;
+}
+.title>span {
+   color: red;
+    font-size: 46px;
+
+
+}
+.container-left__text {
+    font-size: 22px;
+    color: #636363;
+    margin-bottom: 69px;
+}
+.label {
+    font-size: 16px;
+    color: #C6C6C4;
+    margin-bottom: 10px;
+}
+.container-left__title {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.container-left__btn {
+    width: 210px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+background-color: #DD3142;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.container-left__dop-text {
+    font-size: 16px;
+    color: #636363;
+
+    text-decoration: none;
+
+}
+.container-left__dop-text.center {
+    text-align: center;
+}
+.container-left__label {
+    display: flex;
+    flex-direction: column;
+}
+.container-left__input {
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.container-left__form-group {
+
+}
+.container-left__btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.btn {
+    text-align: center;
+}
+
+.popup {
+    display: none;
+    width: 400px;
+    height: 100px;
+   padding: 20px;
+    position: fixed;
+    box-sizing: border-box;
+    order: 5;
+    top: 50%;
+    left: 35%;
+    text-align: center;
+    background-color: #636363b5;
+    color: white;
+    border-radius: 10px;
+}
+.popup.close {
+    display: none;
+}
+.popup.open{
+    display: block;
+}
+.popup-text {
+    margin-bottom: 5px;
+}
+.popup-btn {
+    width: 45px;
+    height: 25px;
+    border: none;
+    border-radius: 40px;
+    background-color: #DD3142;
+    font-size: 15px;
+    color: #FFFFFF;
+}

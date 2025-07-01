@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<p class="title">HOME<span>W</span>ORKS</p>
+<div class="container">
+
+    <div class="container-left">
+        <div class="container-left__title">Get your free account</div>
+        <div class="container-left__text">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever)
+            anytime.
+        </div>
+        <form action="https://webhook.site/6c07221f-5688-412c-9c65-36365debe86f" method="post" class="container-left__form-group">
+            <div class="container-left__label" >
+                <label for="fullName" class="label">
+                    Full Name:</label>
+                <input type="text" id="fullName" name="fullname" class="container-left__input">
+
+            </div>
+            <div class="container-left__label" >
+                <label for="userName" class="label">
+                    Your username:
+                </label>
+                <input type="text" id="username" name="username" class="container-left__input">
+
+            </div>
+            <div class="container-left__label">
+                <label for="email" class="label">
+                    E-mail:
+                </label>
+                <input type="email" name="email" class="container-left__input" id="email">
+
+            </div>
+            <div class="container-left__label">
+                <label for="password" class="label">
+                    Password:
+                </label>
+                <input type="password" name="password" class="container-left__input" id="password">
+
+            </div>
+            <div class="container-left__label">
+                <label for="password-2" class="label">
+                    Repeat Password:
+                </label>
+                <input type="password" name="password" class="container-left__input" id="password-2">
+
+            </div>
+            <div class="container-left__label">
+                <label class="container-left__dop-text">
+                    <input type="checkbox" value="Agree" name="agreement" class="container-left__input" id="checkbox">Agree to our Terms of Service and Privacy Statement
+                </label>
+            </div>
+            <div class="btn" >
+                <button type="submit" class="container-left__btn" id="button">Sign up</button>
+            </div>
+        </form>
+        <a href="#" class="container-left__dop-text center" id="openPopup">Already have an account?</a>
+    </div>
+    <div class="container-right">
+        <div class="container-right__img">
+            <img src="images/image.png" alt="img" class="main-image">
+        </div>
+    </div>
+</div>
+<div class="popup" id="popup">
+    <div class="popup-text">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</div>
+    <button class="popup-btn" id="close">ОК</button>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
